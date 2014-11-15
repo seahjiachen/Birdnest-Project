@@ -24,7 +24,7 @@ public class Main extends Activity {
             getFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
-        }
+        } 
         // Database Test RW
         MySQLite db = new MySQLite(this);
 
